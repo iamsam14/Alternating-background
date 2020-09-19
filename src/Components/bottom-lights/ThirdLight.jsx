@@ -15,7 +15,6 @@ const ThirdLight = () => {
 
   const thirdLightClick = () => {
     setThirdLight(!thirdLight);
-    console.log("localfile");
   };
   return (
     <>

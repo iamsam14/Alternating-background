@@ -14,7 +14,6 @@ const FirstLight = () => {
   } = useContext(AppContext);
   const firstLightclicked = () => {
     setFirstLight(!firstLight);
-    console.log("localfile");
   };
 
   return (

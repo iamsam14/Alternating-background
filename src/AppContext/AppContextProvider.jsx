@@ -21,7 +21,6 @@ const AppContextProvider = ({ children }) => {
     setSecondLight(false);
     setThirdLight(false);
     setFourthLight(false);
-    console.log("appcontext");
   };
 
   const secondColorScreenClick = () => {
@@ -33,7 +32,6 @@ const AppContextProvider = ({ children }) => {
     setSecondLight(false);
     setThirdLight(false);
     setFourthLight(false);
-    console.log("appcontext");
   };
 
   const thirdColorScreenClick = () => {
@@ -45,7 +43,6 @@ const AppContextProvider = ({ children }) => {
     setSecondLight(false);
     setThirdLight(false);
     setFourthLight(false);
-    console.log("appcontext");
   };
 
   const fourthColorScreenClick = () => {
@@ -57,7 +54,6 @@ const AppContextProvider = ({ children }) => {
     setSecondLight(false);
     setThirdLight(false);
     setFourthLight(false);
-    console.log("appcontext");
   };
 
   return (

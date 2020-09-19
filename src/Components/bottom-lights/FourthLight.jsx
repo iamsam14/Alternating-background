@@ -7,7 +7,6 @@ const FourthLight = () => {
   );
   const fourthLightClick = () => {
     setFourthLight(!fourthLight);
-    console.log("localfile");
   };
   return (
     <>

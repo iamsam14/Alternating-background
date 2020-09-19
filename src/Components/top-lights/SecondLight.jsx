@@ -7,7 +7,6 @@ const SecondLight = () => {
   );
   const secondLightClick = () => {
     setSecondLight(!secondLight);
-    console.log("localfile");
   };
 
   return (
