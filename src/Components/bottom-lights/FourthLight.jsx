@@ -1,20 +1,21 @@
-import React, { useContext } from "react";
-import { AppContext } from "../../AppContext/AppContextProvider";
+import { AppContext } from '../../AppContext/AppContextProvider';
+import React, { useContext } from 'react';
 
 const FourthLight = () => {
-  const { fourthLight, setFourthLight, fourthColorScreenClick } = useContext(
-    AppContext
-  );
+  const { fourthLight, setFourthLight, fourthColorScreenClick } =
+    useContext(AppContext);
+
   const fourthLightClick = () => {
     setFourthLight(!fourthLight);
   };
+
   return (
     <>
       <div
         className={
           fourthLight
-            ? "fourth-div half-size center-button"
-            : "half-size center-button"
+            ? 'blue-color half-size center-button'
+            : 'half-size center-button'
         }
       >
         <button className="btn box-shadow" onClick={fourthLightClick}>

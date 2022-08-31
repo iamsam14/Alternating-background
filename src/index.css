@@ -1,33 +1,24 @@
-.first-div {
-  background-color: #70161e !important;
+:root {
+  --red-color: #70161e;
+  --yellow-color: #d9de7d;
+  --green-color: #7ea16b;
+  --blue-color: #1c3144;
 }
 
-.second-div {
-  background-color: #c3d898 !important;
+.red-color {
+  background-color: var(--red-color) ;
 }
 
-.third-div {
-  background-color: #7ea16b;
+.yellow-color {
+  background-color: var(--yellow-color) ;
 }
 
-.fourth-div {
-  background-color: #1c3144 !important;
+.green-color {
+  background-color: var(--green-color);
 }
 
-.first-color-screen {
-  background-color: #70161e !important;
-}
-
-.second-color-screen {
-  background-color: #c3d898;
-}
-
-.third-color-screen {
-  background-color: #7ea16b !important;
-}
-
-.fourth-color-screen {
-  background-color: #1c3144;
+.blue-color {
+  background-color: var(--blue-color) ;
 }
 
 .half-size {
@@ -48,10 +39,6 @@
   align-items: center;
 }
 
-.black {
-  background-color: #596f62;
-}
-
 #buttons {
   padding-top: 10px;
   text-align: center;
@@ -59,12 +46,12 @@
 
 .btn {
   border-radius: 5px;
-  padding: 15px 25px;
+  color: black;
+  display: inline-block;
   font-size: 22px;
   margin: 20px;
-  color: black;
+  padding: 15px 25px;
   position: relative;
-  display: inline-block;
   text-decoration: none;
 }
 

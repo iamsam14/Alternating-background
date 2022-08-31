@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import { AppContext } from "../../AppContext/AppContextProvider";
-import FourthLight from "./FourthLight";
+import { AppContext } from '../../AppContext/AppContextProvider';
+import FourthLight from './FourthLight';
+import React, { useContext } from 'react';
 
 const ThirdLight = () => {
   const {
@@ -18,25 +18,24 @@ const ThirdLight = () => {
   };
   return (
     <>
-      {/* "flex-container" */}
       <div
         className={
           firstColorScreen
-            ? "first-color-screen flex-container"
+            ? 'red-color flex-container'
             : secondColorScreen
-            ? "second-color-screen flex-container"
+            ? 'yellow-color flex-container'
             : thirdColorScreen
-            ? "third-color-screen flex-container"
+            ? 'green-color flex-container'
             : fourthColorScreen
-            ? "fourth-color-screen flex-container"
-            : "black flex-container"
+            ? 'blue-color flex-container'
+            : 'flex-container'
         }
       >
         <div
           className={
             thirdLight
-              ? "third-div half-size center-button"
-              : "half-size center-button"
+              ? 'green-color half-size center-button'
+              : 'half-size center-button'
           }
         >
           <button className="btn box-shadow" onClick={thirdLightClick}>

@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
-import { AppContext } from "../../AppContext/AppContextProvider";
+import { AppContext } from '../../AppContext/AppContextProvider';
+import React, { useContext } from 'react';
 
 const SecondLight = () => {
-  const { secondLight, setSecondLight, secondColorScreenClick } = useContext(
-    AppContext
-  );
+  const { secondLight, setSecondLight, secondColorScreenClick } =
+    useContext(AppContext);
+
   const secondLightClick = () => {
     setSecondLight(!secondLight);
   };
@@ -13,8 +13,8 @@ const SecondLight = () => {
     <div
       className={
         secondLight
-          ? "second-div half-size center-button"
-          : "center-button half-size"
+          ? 'yellow-color half-size center-button'
+          : 'center-button half-size'
       }
     >
       <button className="btn box-shadow" onClick={secondLightClick}>
